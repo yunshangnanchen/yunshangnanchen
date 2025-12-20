@@ -47,13 +47,13 @@ const App = () => {
     const [worksRef, worksVisible] = useScrollReveal(0.1);
 
     const lifeImages = [
-      "public/illust_75126666_20250513_134648.jpg",
-      "public/illust_77734148_20250513_134640.jpg",
-      "public/illust_82937235_20250513_134631.jpg",
-      "public/illust_86588827_20250513_134618.jpg",
-      "public/illust_114478204_20250513_134535.png",
-      "public/illust_99302008_20250513_134551.jpg",
-      "public/illust_121154966_20250513_113005.png"
+      "./public/illust_75126666_20250513_134648.jpg",
+      "./public/illust_77734148_20250513_134640.jpg",
+      "./public/illust_82937235_20250513_134631.jpg",
+      "./public/illust_86588827_20250513_134618.jpg",
+      "./public/illust_114478204_20250513_134535.png",
+      "./public/illust_99302008_20250513_134551.jpg",
+      "./public/illust_121154966_20250513_113005.png"
     ];
 
     // 1. 进度条加载逻辑
