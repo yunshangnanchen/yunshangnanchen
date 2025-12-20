@@ -47,7 +47,7 @@ const App = () => {
     const [worksRef, worksVisible] = useScrollReveal(0.1);
 
     const lifeImages = [
-      "public/illust_75126666_20250513_134648.jpg",
+      "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_75126666_20250513_134648.jpg",
       "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_77734148_20250513_134640.jpg",
       "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_82937235_20250513_134631.jpg",
       "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_86588827_20250513_134618.jpg",
