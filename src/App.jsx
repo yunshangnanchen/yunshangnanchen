@@ -47,13 +47,13 @@ const App = () => {
     const [worksRef, worksVisible] = useScrollReveal(0.1);
 
     const lifeImages = [
-      "./public/illust_75126666_20250513_134648.jpg",
-      "./public/illust_77734148_20250513_134640.jpg",
-      "./public/illust_82937235_20250513_134631.jpg",
-      "./public/illust_86588827_20250513_134618.jpg",
-      "./public/illust_114478204_20250513_134535.png",
-      "./public/illust_99302008_20250513_134551.jpg",
-      "./public/illust_121154966_20250513_113005.png"
+      "public/illust_75126666_20250513_134648.jpg",
+      "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_77734148_20250513_134640.jpg",
+      "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_82937235_20250513_134631.jpg",
+      "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_86588827_20250513_134618.jpg",
+      "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_114478204_20250513_134535.png",
+      "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_99302008_20250513_134551.jpg",
+      "https://raw.githubusercontent.com/yunshangnanchen/yunshangnanchen/refs/heads/main/public/illust_121154966_20250513_113005.png"
     ];
 
     // 1. 进度条加载逻辑
@@ -106,11 +106,11 @@ const App = () => {
     window.addEventListener('resize', resize);
     resize();
     const particles = [];
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1200; i++) {
         particles.push({
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height,
-            size: 1 + Math.random() * 4,
+            size: 1 + Math.random() * 5,
             speedY: 0.2 + Math.random() * 0.4,
             amplitude: Math.random() * 1.5,
             phase: Math.random() * Math.PI * 2,
@@ -431,7 +431,7 @@ const App = () => {
           </div>
           <div className="grid md:grid-cols-2 gap-12 text-[#888] leading-relaxed">
             <div className="space-y-6">
-              <p>你好！我是 <span className="text-sky-400 font-bold uppercase">NanChenJiaJia</span>，一名热衷于探索像素与代码之间界限的前端开发者。</p>
+              <p>你好！我是 <span className="text-sky-400 font-bold uppercase">NanChenJiaJia</span>，热衷于电路集成设计和系统底层架构设计与音乐</p>
               <div className="flex flex-wrap gap-2">
                 {['React', 'Three.js', 'Vite', 'Node', 'Canvas'].map(skill => (
                   <span key={skill} className="px-3 py-1 bg-[#080808] border border-[#222] text-[10px] hover:border-sky-500/50 transition-colors uppercase font-bold">{skill}</span>
@@ -460,10 +460,8 @@ const App = () => {
 
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { id: "01", title: "Project_Alpha", desc: "探索 WebGL 与 2D Canvas 的结合点，尝试将复古像素美学带入现代 Web 体验。", link: "https://example.com/project-alpha" },
-              { id: "02", title: "Project_Beta", desc: "探索 WebGL 与 2D Canvas 的结合点，尝试将复古像素美学带入现代 Web 体验。", link: "https://example.com/project-beta" },
-              { id: "03", title: "Project_Gamma", desc: "探索 WebGL 与 2D Canvas 的结合点，尝试将复古像素美学带入现代 Web 体验。", link: "https://example.com/project-gamma" },
-              { id: "04", title: "Project_Delta", desc: "探索 WebGL 与 2D Canvas 的结合点，尝试将复古像素美学带入现代 Web 体验。", link: "https://example.com/project-delta" }
+              { id: "01", title: "YunShangNanChen", desc: "使用React编写的现代化个人静态博客", link: "https://github.com/yunshangnanchen/yunshangnanchen" },
+              { id: "02", title: "Project-Files_yunshang", desc: "使用React编写的复古未来科幻风格网页", link: "https://github.com/yunshangnanchen/Project-Files_yunshang" }
             ].map(work => (
               <div 
                 key={work.id} 
@@ -496,7 +494,7 @@ const App = () => {
             <a href="#" className="hover:text-sky-500 transition-all"><Twitter size={24} /></a>
             <a href="mailto:DYBAGE@out.com" className="hover:text-sky-500 transition-all"><Mail size={24} /></a>
           </div>
-          <p className="text-[10px] text-[#444] uppercase tracking-[0.5em] font-black">NanChenJiaJia // {new Date().getFullYear()}</p>
+          <p className="text-[10px] text-[#444] uppercase tracking-[0.5em] font-black">yunshang-nanchenjiajia // {new Date().getFullYear()}</p>
         </div>
       </footer>
     </div>
