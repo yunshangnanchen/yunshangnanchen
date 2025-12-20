@@ -1,0 +1,29 @@
+## 根目录文件
+- [# 华为服务器通过IPMI iBMC手动控制风扇转速.md](./zh-cn/# 华为服务器通过IPMI iBMC手动控制风扇转速.md)
+- [2024-06-22-AE粒子飘飞.md](./zh-cn/2024-06-22-AE粒子飘飞.md)
+- [2024-06-28-搭建Minecraft-MCSN.md](./zh-cn/2024-06-28-搭建Minecraft-MCSN.md)
+- [2024-06-30-Linux-Archlinux安装教程.md](./zh-cn/2024-06-30-Linux-Archlinux安装教程.md)
+- [2024-07-12-Linux_安装Mysql.md](./zh-cn/2024-07-12-Linux_安装Mysql.md)
+- [2024-08-30-AE弹性晃动表达式.md](./zh-cn/2024-08-30-AE弹性晃动表达式.md)
+- [2024-10-12-samba服务器搭建.md](./zh-cn/2024-10-12-samba服务器搭建.md)
+- [3123123131.md](./zh-cn/3123123131.md)
+- [samba服务器搭建.md](./zh-cn/samba服务器搭建.md)
+- [使用deb安装文件.md](./zh-cn/使用deb安装文件.md)
+- [简单3步部署code-server(vscode网页版).md](./zh-cn/简单3步部署code-server(vscode网页版).md)
+## 分类目录
+### AE插件&表达式
+- [AE插件&表达式](./zh-cn/AE插件&表达式/)
+### C语言
+- [C语言](./zh-cn/C/)
+### C#
+- [C#](./zh-cn/C-Sharp/)
+### Linux
+- [Linux](./zh-cn/Linux/)
+### Markdown
+- [Markdown](./zh-cn/Markdown/)
+### 日常笔记
+- [one day](./zh-cn/one day/)
+### Python3
+- [Python3](./zh-cn/python3/)
+### 计算机基础知识
+- [计算机的应知](./zh-cn/计算机的应知/)
