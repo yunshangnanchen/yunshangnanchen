@@ -491,7 +491,7 @@ const App = () => {
         <div className="max-w-6xl mx-auto px-6 text-center space-y-10">
           <div className="flex justify-center gap-12 text-[#222]">
             <a href={githubProfile} target="_blank" className="hover:text-sky-500 transition-all"><Github size={24} /></a>
-            <a href="#" className="hover:text-sky-500 transition-all"><Twitter size={24} /></a>
+            <a href="https://x.com/nanchen200852" className="hover:text-sky-500 transition-all"><Twitter size={24} /></a>
             <a href="mailto:DYBAGE@out.com" className="hover:text-sky-500 transition-all"><Mail size={24} /></a>
           </div>
           <p className="text-[10px] text-[#444] uppercase tracking-[0.5em] font-black">yunshang-nanchenjiajia // {new Date().getFullYear()}</p>
